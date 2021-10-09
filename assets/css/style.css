@@ -27,6 +27,7 @@ header h1 {
   font-size: 40px;
   margin: 0;
   display: inline;
+  color: royalblue;
 }
 
 header a {
@@ -168,6 +169,21 @@ section {
   height: 200px;
   width: 400px;
   border: solid 2px royalblue;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: #C2B280;
+  color: royalblue;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: solid 1px royalblue;
+}
+
+.img {
+  position: relative;
 }
 
 
