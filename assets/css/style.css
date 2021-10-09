@@ -8,57 +8,157 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Header Style Starts*/
 header {
-  padding: 20px 35px;
+  padding: 80px 35px 15px 35px;
   background-color: #1e00ff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-image: url(../images/sean-oulashin-KMn4VEeEPR8-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
 }
 
 header h1 {
   font-weight: bold;
-  font-size: 36px;
+  font-size: 40px;
   margin: 0;
   display: inline;
 }
 
 header a {
   text-decoration: none;
-  color: #38d5fc;
+  color: royalblue;
 }
 
 header nav {
-  float: right;
   margin: 7px 0;
 }
 
-header nav ul li {
-  display: inline;
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
 header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
   font-size: 22px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
+/*Footer Style Starts*/
 footer {
-  background: #1e00ff;
   width: 100%;
   padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: linear-gradient(-422deg, #7eb8f2 60%, #c7c22c 60%);
 }
 
 footer h3 {
-  display: inline;
   color: #38d5fc;
   font-size: 30px;
   margin: 0;
 }
 
 footer div {
-  float: right;
   line-height: 1.5;
   text-align: right;
 }
 
 footer a {
   color: #38d5fc;
+}
+
+section {
+  padding: 60px;
+}
+
+/*About Me Starts*/
+
+.about-me {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding-bottom: 0px;
+  background-image: url(../images/sean-oulashin-KMn4VEeEPR8-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 9999;
+}
+
+.about-me h2 {
+  text-align: center;
+  font-size: 36px;
+  color: royalblue;
+  border-bottom: 1px solid royalblue;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#about-me img {
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+  height: auto;
+  width: 30%;
+}
+
+#about-me p {
+  margin: 5%;
+  text-align: left;
+}
+
+/*Work Section*/
+.flex-grid {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: linear-gradient(-460deg, #7eb8f2 60%, #c7c22c 60%);
+}
+
+.work h2 {
+  text-align: center;
+  font-size: 36px;
+  margin: 20px auto;
+  border-bottom: solid 2px royalblue;
+  width: 80%;
+}
+.work img {
+  height: 200px;
+  width: 400px;
+  border: solid 2px blue;
+}
+
+
+/*Utility*/
+
+.flex-row {
+  display: flex;
 }
