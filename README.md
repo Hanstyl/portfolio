@@ -1,5 +1,3 @@
-![Uploading Screen Shot 2021-10-09 at 1.36.33 PM.png…]()
-
 #First Portfolio
 
 ## Description
@@ -30,3 +28,6 @@ Links to Pages
 Github Repository- https://github.com/Hanstyl/portfolio
 
 Github site deployment- https://hanstyl.github.io/portfolio/
+
+
+![Screen Shot 2021-10-10 at 8 56 58 PM](https://user-images.githubusercontent.com/79775889/136731225-62aba8fb-6bbf-474a-b2f2-f9032ac95715.png)
